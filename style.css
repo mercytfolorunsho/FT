@@ -1,0 +1,48 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Styling for the main title */
+#topic {
+    font-size: 30px; 
+    font-weight: bold;
+    color: #DC2626; 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* Styling for the images and their names */
+.imagename {
+    text-align: center;
+    margin-top: 3rem; 
+    font-size: 30px;
+}
+
+@media (max-width: 640px) {
+    #topic {
+        font-size: 2rem; 
+    }
+}
+
+/* For screens larger than medium (md) */
+@media (min-width: 768px) {
+    #topic {
+        font-size: 3rem; 
+    }
+}
+
+/* For screens larger than large (lg) */
+@media (min-width: 1024px) {
+    #topic {
+        font-size: 3rem; 
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
